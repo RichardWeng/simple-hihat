@@ -779,7 +779,7 @@ U 1 1 603705BF
 P 2400 1200
 F 0 "U1" H 2400 1567 50  0000 C CNN
 F 1 "TL074" H 2400 1476 50  0000 C CNN
-F 2 "" H 2350 1300 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2350 1300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2450 1400 50  0001 C CNN
 	1    2400 1200
 	1    0    0    -1  
@@ -790,7 +790,7 @@ U 2 1 603725D4
 P 2400 3850
 F 0 "U1" H 2400 3483 50  0000 C CNN
 F 1 "TL074" H 2400 3574 50  0000 C CNN
-F 2 "" H 2350 3950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2350 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2450 4050 50  0001 C CNN
 	2    2400 3850
 	1    0    0    1   
@@ -801,7 +801,7 @@ U 3 1 60375961
 P 9700 4300
 F 0 "U1" H 9700 4667 50  0000 C CNN
 F 1 "TL074" H 9700 4576 50  0000 C CNN
-F 2 "" H 9650 4400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9650 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 4500 50  0001 C CNN
 	3    9700 4300
 	1    0    0    -1  
@@ -812,7 +812,7 @@ U 4 1 6037856C
 P 10050 5750
 F 0 "U1" H 10050 6117 50  0000 C CNN
 F 1 "TL074" H 10050 6026 50  0000 C CNN
-F 2 "" H 10000 5850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10000 5850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10100 5950 50  0001 C CNN
 	4    10050 5750
 	1    0    0    -1  
@@ -823,7 +823,7 @@ U 5 1 6037C56E
 P 4250 6500
 F 0 "U1" H 4208 6546 50  0000 L CNN
 F 1 "TL074" H 4208 6455 50  0000 L CNN
-F 2 "" H 4200 6600 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4200 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4300 6700 50  0001 C CNN
 	5    4250 6500
 	1    0    0    -1  
@@ -1214,4 +1214,14 @@ Wire Wire Line
 Connection ~ 2700 6100
 Wire Wire Line
 	7000 5400 6800 5400
+Text Notes 7300 7250 0    50   ~ 0
+1
+Text Notes 7400 7250 0    50   ~ 0
+1
+Text Notes 7350 7500 0    79   ~ 0
+Simple Hihat
+Text Notes 8150 7650 0    50   ~ 0
+24 feb. 2021
+Text Notes 10600 7650 0    79   ~ 0
+0.1
 $EndSCHEMATC
